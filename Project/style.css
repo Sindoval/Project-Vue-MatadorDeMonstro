@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&display=swap');
+
+#app {
+  font-family: "Jersey 10", sans-serif;
+  text-align: center;
+  font-size: larger ;
+}
+
+#main {
+  width: 97%;
+  height: 180px;
+  margin-left: 1.5%;
+  margin-top: 2%;
+  box-shadow: 3px 3px 3px 3px rgb(173, 168, 168);
+  display: flex;
+  justify-content: space-around;
+}
+
+.barra-vida {
+  height: 30px;
+  width: 500px;
+  border: 1px solid black;
+}
+/* classes para controlar a barra de vida */
+.life {
+  height: 100%;
+  background-color: green;
+}
+
+.danger {
+  height: 100%;
+  background-color: red;
+}
+
+#jogador {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#monstro {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#btns {
+  height: 90px;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-top: 2%;
+  box-shadow: 3px 3px 3px 3px rgb(173, 168, 168);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tabela {
+  box-shadow: 3px 3px 3px 3px rgb(173, 168, 168);
+  width: 97%;
+  margin-left: 1.5%;
+}
+
+button {
+  margin: 0% 1rem;
+  padding: 1rem 1rem;
+  border-radius: 4px;
+}
+
+#btn-iniciar {
+  background-color: rgb(50, 50, 214);
+  color: white;
+}
+#btn-atack {
+  background-color: rgb(248, 23, 15);
+  color: white;
+}
+
+#btn-especial {
+  background-color: rgb(250, 113, 1);
+  color: black;
+}
+
+#btn-curar {
+  background-color: rgb(13, 158, 8);
+  color: white;
+}
+
+#btn-desistir {
+  background-color: rgb(150, 151, 145);
+  color: black;
+}
+
+.logs {
+  box-shadow: 3px 3px 3px 3px rgb(173, 168, 168);
+  width: 97%;
+  margin-left: 1.5%;
+  margin-top: 1em;
+}
+
+.tabela {
+  display: flex;
+  justify-content: center;
+}
+/* classes para controlar as cores dos logs */
+.player {
+  padding: 1rem 0px;
+  background-color: rgb(71, 84, 204);
+  width: 95%;
+  margin: 0.5rem;
+  border-radius: 5px;
+}   
+
+.monstro {
+  padding: 1rem 0px;
+  background-color: rgb(231, 60, 60);
+  width: 95%;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
